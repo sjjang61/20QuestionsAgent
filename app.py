@@ -62,12 +62,14 @@ def main():
                 st.session_state.messages.append({"role": "assistant", "content": f"Game over! You've used all 20 attempts. The word was '{st.session_state.answer}'."})
                 st.session_state.game_over = True
 
-            st.experimental_rerun()
+            #st.experimental_rerun()
+            st.rerun()
 
     if st.session_state.game_over:
         if st.sidebar.button("Play Again"):
             reset_game()
-            st.experimental_rerun()
+            #st.experimental_rerun()
+            st.rerun()
 
 if __name__ == "__main__":
     main()

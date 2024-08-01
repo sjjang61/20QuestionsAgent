@@ -1,1 +1,7 @@
-# sk_llm_day4
+## Description
+- 스무고개 Agent
+
+## deploy
+- https://share.streamlit.io/
+- integrated on github 
+  

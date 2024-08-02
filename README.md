@@ -1,5 +1,5 @@
 ## Description
-- 스무고개 Agent
+- 스무고개 Agent based on streamlit
 
 ## deploy
 - https://share.streamlit.io/
